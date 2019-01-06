@@ -1,0 +1,4 @@
+mystr:	str.o
+	gcc -g -ansi -Wall str.o -o mystr
+str.o:	my_str.c
+	gcc -c -ansi -Wall my_str.c -o str.o
